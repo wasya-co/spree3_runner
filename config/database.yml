@@ -1,0 +1,25 @@
+
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: test1243
+  socket: /tmp/mysql.sock
+
+development:
+  <<: *default
+  database: spree3_development
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *default
+  database: spree3_runner_test
+
+production:
+  <<: *default
+  database: spree3_runner_production
+  username: spree3_runner
+  password: <%= ENV['SPREE3_RUNNER_DATABASE_PASSWORD'] %>

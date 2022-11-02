@@ -1,31 +1,31 @@
 GIT
   remote: https://github.com/wasya-co/spree.git
-  revision: ff0f204772ff3e9a7aaa1e2af5e08760d319660c
-  branch: 3.7.16
+  revision: 1fa0185ef7371eb1f14eef4ec4ffcc59e7fc4a67
+  branch: 3.7.17
   specs:
-    spree (3.7.14.2)
-      spree_api (= 3.7.14.2)
-      spree_backend (= 3.7.14.2)
-      spree_cmd (= 3.7.14.2)
-      spree_core (= 3.7.14.2)
-      spree_frontend (= 3.7.14.2)
-      spree_sample (= 3.7.14.2)
-    spree_api (3.7.14.2)
+    spree (3.7.17)
+      spree_api (= 3.7.17)
+      spree_backend (= 3.7.17)
+      spree_cmd (= 3.7.17)
+      spree_core (= 3.7.17)
+      spree_frontend (= 3.7.17)
+      spree_sample (= 3.7.17)
+    spree_api (3.7.17)
       doorkeeper (~> 5.0)
       fast_jsonapi (~> 1.5)
       rabl (~> 0.13.1)
-      spree_core (= 3.7.14.2)
+      spree_core (= 3.7.17)
       versioncake (~> 3.4.0)
-    spree_backend (3.7.14.2)
+    spree_backend (3.7.17)
       bootstrap-sass (~> 3.4)
       jquery-rails (~> 4.3)
       jquery-ui-rails (~> 6.0.1)
       select2-rails (= 3.5.9.1)
-      spree_api (= 3.7.14.2)
-      spree_core (= 3.7.14.2)
-    spree_cmd (3.7.14.2)
+      spree_api (= 3.7.17)
+      spree_core (= 3.7.17)
+    spree_cmd (3.7.17)
       thor (~> 0.14)
-    spree_core (3.7.14.2)
+    spree_core (3.7.17)
       activemerchant (~> 1.67)
       acts-as-taggable-on (~> 6.0.0)
       acts_as_list (~> 0.8)
@@ -51,14 +51,14 @@ GIT
       state_machines-activerecord (~> 0.5)
       stringex
       twitter_cldr (~> 4.3)
-    spree_frontend (3.7.14.2)
+    spree_frontend (3.7.17)
       bootstrap-sass (~> 3.4)
       canonical-rails (~> 0.2.3)
       jquery-rails (~> 4.3)
-      spree_api (= 3.7.14.2)
-      spree_core (= 3.7.14.2)
-    spree_sample (3.7.14.2)
-      spree_core (= 3.7.14.2)
+      spree_api (= 3.7.17)
+      spree_core (= 3.7.17)
+    spree_sample (3.7.17)
+      spree_core (= 3.7.17)
 
 GIT
   remote: https://github.com/wasya-co/spree_auth_devise.git
@@ -406,7 +406,7 @@ DEPENDENCIES
   rails (~> 5.2.8, >= 5.2.8.1)
   sass-rails (~> 5.0)
   selenium-webdriver
-  spree (= 3.7.14.2)!
+  spree (= 3.7.17)!
   spree_auth_devise!
   spree_gateway!
   turbolinks (~> 5)

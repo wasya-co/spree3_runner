@@ -22,3 +22,17 @@ module Psych
     )
   end
 end
+
+
+module YAML
+  def self.properly_load_file(path)
+    YAML.load_file path, aliases: true
+  rescue ArgumentError
+    YAML.load_file path
+  end
+end
+module YAML
+  class << self
+    alias_method :load, :unsafe_load if YAML.respond_to? :unsafe_load
+  end
+end

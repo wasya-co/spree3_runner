@@ -1,0 +1,4 @@
+
+0.0.0 - 2022-11-02 - Works!
+0.1.0 - 2022-11-02 - lets move to ruby 2.7.5 ? No, too data-heavy.
+0.2.0 - 2022-11-02 - Let's add capistrano and deploy

@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module Spree3Runner
   class Application < Rails::Application
 
-    config.active_record.yaml_column_permitted_classes = [Symbol] ## From: https://stackoverflow.com/questions/72970170/upgrading-to-rails-6-1-6-1-causes-psychdisallowedclass-tried-to-load-unspecif
+    config.active_record.yaml_column_permitted_classes = [ Symbol, BigDecimal ] ## From: https://stackoverflow.com/questions/72970170/upgrading-to-rails-6-1-6-1-causes-psychdisallowedclass-tried-to-load-unspecif
     config.active_record.use_yaml_unsafe_load
 
     config.to_prepare do

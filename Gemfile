@@ -15,7 +15,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7' # Use ActiveModel has_secure_password
 gem 'bootsnap', '>= 1.1.0', require: false # Reduces boot times through caching; required in config/boot.rb
 gem 'aws-sdk-s3'
-# gem 'psych', '4.0.1'
+gem 'psych', '~> 3.0'
 
 gem 'spree', '3.7.17', github: 'wasya-co/spree', branch: '3.7.17'
 gem 'spree_auth_devise', github: 'wasya-co/spree_auth_devise', branch: '3.5.2'

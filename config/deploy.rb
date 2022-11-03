@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:wasya-co/spree3_runner.git"
 set :ssh_options, { :forward_agent => true }
 set :branch, ENV['BRANCH'] if ENV['BRANCH']
 
-append :linked_files, "config/database.yml", "config/secrets.yml"
+append :linked_files, "config/database.yml", "config/secrets.yml", "config/initializers/00_s3.rb"
 
 set :deploy_via, :remote_cache
 

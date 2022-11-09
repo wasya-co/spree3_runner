@@ -1,3 +1,5 @@
 
 0.0.0 - 2022-11-02 - Works! And added capistrano, and deployed
 0.1.0 - 2022-11-02 - psych 4.0.1 ? to not have an issue with BigDecimal
+0.2.0 - 2022-11-09 - add i18n
+

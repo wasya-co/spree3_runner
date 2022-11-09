@@ -21,6 +21,10 @@ gem 'spree', '3.7.17', github: 'wasya-co/spree', branch: '3.7.17'
 gem 'spree_auth_devise', github: 'wasya-co/spree_auth_devise', branch: '3.5.2'
 gem 'spree_gateway', github: 'wasya-co/spree_gateway', branch: 'master' # 3.4 ? 3.9.4 ?
 
+## Not used after spree 3.1 ?
+gem 'spree_i18n', github: 'wasya-co/spree_i18n', branch: '3.7.15'
+gem 'spree_globalize', github: 'wasya-co/spree_globalize', branch: '3.7.15'
+
 group :development do
   gem 'byebug'
 
